@@ -18,4 +18,4 @@ And finally $O({n(n+1)\over2}) = O(n^2)$
 
 ### Question 2
 
-To optimize, we can instead iterate through the list starting from the head and do a head insertion each time instead, which should result in a time complexity of $O(n)$.
+To optimize, we can use a pointer starting from the head that can simply be set to the next node each iteration and do a head insertion instead. This will result in a time complexity of $O(n)$.
