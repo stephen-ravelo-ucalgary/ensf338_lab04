@@ -1,5 +1,5 @@
 # 
-# Exercise 4 Part 1
+# Question 1
 # The best case complexity for the given code is if li has no elements greater than 5.
 # Supposing that n = len(li), the outer loop is 2 operations and would run n times, the if li[i] > 5
 # line has 2 operations and would also run n times. For the best case, the inner loop would not execute. 
@@ -16,14 +16,14 @@
 # is O(n^2).
 
 #
-# Exercise 4 Part 2
+# Question 2
 # The best (O(n)), worst (O(n^2)), and average (O(n^2)) cases are not the same.
 # Below is an implementation where the case complexity is equivalent for the best,
 # worst, and average cases.
 
 def processdata(li):
     for i in range(len(li)):        # 2 ops n times
-        for j in range (len[li]):    # 2 ops n * n times
+        for j in range (len(li)):    # 2 ops n * n times
             if li[i] > 5:           # 2 ops n * n times
                 li[j] *= 2          # 2 ops n * n times
             
